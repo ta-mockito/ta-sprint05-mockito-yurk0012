@@ -193,6 +193,5 @@ public class ChildDBMocktest {
         assertThrows(IllegalArgumentException.class, () -> childDB.findChildrenWithMinimumAge(-1));
 
         verifyNoInteractions(connection);
-    }
-}
+    }}
 
