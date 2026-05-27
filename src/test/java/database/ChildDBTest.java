@@ -114,9 +114,9 @@ class ChildDBTest {
     }
 
 
-    @Test
-    @DisplayName("Should delete an existing child")
-    void deleteShouldDeleteExistingChild() throws SQLException {
+        @Test
+        @DisplayName("Should delete an existing child")
+        void deleteShouldDeleteExistingChild() throws SQLException {
         // Arrange - Add a child first
         Child child = new Child("To Be", "Deleted", LocalDate.of(2010, 5, 5));
         Child addedChild = db.addChild(child);
